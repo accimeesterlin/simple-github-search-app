@@ -1,0 +1,27 @@
+.input-search {
+    width: 300px;
+}
+
+.input-search div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.input-search input {
+    outline: none;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.input-search button {
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+
